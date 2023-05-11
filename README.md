@@ -48,3 +48,6 @@ We have created the below contracts:
 Tech Stats:
 Backend - Solidity, Python, Ganache and Metamask
 Frontend - React, Bootstrap
+
+Sources:
+https://techblog.geekyants.com/decentralized-kyc-on-blockchain-a-case-study#heading-please-find-the-full-source-code-herehttpsgithubcomgeekyantssample-decentralised-kyc-ethereum
