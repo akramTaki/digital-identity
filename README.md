@@ -22,7 +22,7 @@ KYC in blockchain refers to the process of verifying the identity of a customer 
 Here are the steps to create a smart contract for KYC in blockchain:
 
 
-![img](https://github.com/akramTaki/digital-identity/assets/118142182/8d08e39e-0335-44a5-bb32-7106d47ed6d6)
+![Digital ID Blockchain](https://github.com/akramTaki/digital-identity/blob/main/image/Digital_ID_Blockchain.png)
 
 
 
