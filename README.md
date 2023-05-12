@@ -23,7 +23,8 @@ Here are the steps to create a smart contract for KYC in blockchain:
 
 
 ![Digital ID Blockchain](https://github.com/akramTaki/digital-identity/blob/main/image/Digital_ID_Blockchain.png)
-
+(Source:
+https://techblog.geekyants.com/decentralized-kyc-on-blockchain-a-case-study#heading-please-find-the-full-source-code-herehttpsgithubcomgeekyantssample-decentralised-kyc-ethereum)
 
 
   1. Define the KYC process: Define the steps involved in the KYC .process, such as collecting customer information, verifying the information, and storing it on the blockchain.
@@ -41,13 +42,45 @@ We have created the below contracts:
  - **Customer Health Information Contract:** This includes creating, validating and storing customer's health identfication documents such as vaccine reports.
  - **Customer Financial Information Contract:** This includes creating, validating and storing customer's financial documents such as banking information on debit/credit card, online tools such as PayPal etc.
 
-
-
 *It's important to note that creating a smart contract for KYC requires a good understanding of blockchain technology and programming languages such as Solidity. It's also important to follow best practices for smart contract development to ensure that the contract is secure and free from vulnerabilities.
 
-Tech Stats:
+**Usage and Installation**
+
+Tech Stack:
 Backend - Solidity, Python, Ganache and Metamask
 Frontend - React, Bootstrap
+Libraries - Web3, os, json, dotenv, streamlit, python scrip
 
-Sources:
-https://techblog.geekyants.com/decentralized-kyc-on-blockchain-a-case-study#heading-please-find-the-full-source-code-herehttpsgithubcomgeekyantssample-decentralised-kyc-ethereum
+**Installation Instructions**
+
+Install:
+* a local development server
+* jupyter lab using  with latest python version
+* libraries for .py script as required
+* Ganache with quickstart
+* Metamask (with imported accounts from Ganache)
+* Use Solidity smart contracts on Remix platform
+
+## Summary of Analysis
+
+#### Register User IDs on Blockchain
+
+Solidity smart contracts were developed with [OpenZepplin ERC721](https://docs.openzeppelin.com/contracts/2.x/api/token/erc721) interfaces, contracts, and utilities to generate token for ID information entered by the user.  For MVP (minimum viable product), three specific IDs were defined, each with its own solidity contract:
+
+* Drivers Licence ID: [drivers.sol](https://github.com/akramTaki/digital-identity/blob/main/contracts/drivers.sol)
+* Health Card ID: [health.sol](https://github.com/akramTaki/digital-identity/blob/main/contracts/health.sol)
+* Passport ID: [passport.sol](https://github.com/akramTaki/digital-identity/blob/main/contracts/passport.sol)
+
+Each contract contains two functions:
+1. Provide initial ID information
+2. Update the ID Number (as required)
+
+The contracts also provide a receipt of initial information input as a way to indicate that the information has made to the block and has been tokenized. The user can also see a report of updates once the ID Number is updated.
+
+##### Demo: Deploy and Test (Click for re-Direct to Youtube)
+
+[![Deploy and Test Video](https://github.com/akramTaki/digital-identity/blob/main/image/Drivers_Registration.png)](https://www.youtube.com/watch?v=MaUBFuDUsgQ)
+
+Once the [drivers.sol]() contract was compiled, it was deployed using Metamask gas transaction.  The deployed address was copied to the .env file for the test. The `ABI` file was copied to the `.json` file in the compiled folder for use by the `drivers_app.py` file (not shown in video). The [drivers_app.py]() file was opened in jupyter lab and tested using local terminal and streamlit for evaluation. 
+
+
