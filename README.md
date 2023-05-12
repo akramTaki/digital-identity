@@ -47,9 +47,9 @@ We have created the below contracts:
 **Usage and Installation**
 
 Tech Stack:
-Backend - Solidity, Python, Ganache and Metamask
-Frontend - React, Bootstrap
-Libraries - Web3, os, json, dotenv, streamlit, python scrip
+* Backend - Solidity, Python, Ganache and Metamask
+* Frontend - React, Bootstrap
+* Libraries - Web3, os, json, dotenv, streamlit, python scrip
 
 **Installation Instructions**
 
