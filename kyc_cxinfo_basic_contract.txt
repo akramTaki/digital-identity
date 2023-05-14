@@ -1,0 +1,18 @@
+pragma solidity ^0.8.0;
+contract KYC {
+    struct Customer {
+        string name;
+        string address;
+        uint256 dateOfBirth;
+        uint256 identificationNumber;
+        bool verified;
+    }
+    mapping(address => Customer) public customers;
+    function addCustomer(string memory _name, string memory _address, uint256 _dateOfBirth, uint256 _identificationNumber) public {
+        customers[msg.sender] = Customer(_name, _address, _dateOfBirth, _identificationNumber, false);
+    }
+    function verifyCustomer(address _customerAddress) public {
+        require(msg.sender == _customerAddress, "You are not authorized to verify this customer");
+        customers[_customerAddress].verified = true;
+    }
+}
