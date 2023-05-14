@@ -4,6 +4,10 @@ import { Link } from "react-router-dom/dist";
 import SideBar from "../SideBar";
 import { useState } from "react";
 
+import driver from "../../assets/images/driver.png";
+import passport from "../../assets/images/passport.png";
+import health from "../../assets/images/health.png";
+import finance from "../../assets/images/finance.png";
 
 const Dashboard = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -15,12 +19,21 @@ const Dashboard = () => {
     <Wrapper>
       <SideBar />
       <div className="glass content">
-        <Link to="/dashboard/driver" className="glass box">Driver</Link>
-        <Link className="glass box">Passport</Link>
-        <Link className="glass box">Health</Link>
-        <Link className="glass box">Finance</Link>
-        <Link className="glass box" onClick={() => setModalOpen(true)}>
-          +
+        <Link to="/dashboard/driver" className="glass box">
+          <img src={driver} />
+          <div>Driver</div>
+        </Link>
+        <Link className="glass box">
+          <img src={passport} />
+          <div>Passport</div>
+        </Link>
+        <Link className="glass box">
+          <img src={health} />
+          <div>Health</div>
+        </Link>
+        <Link className="glass box">
+          <img src={finance} />
+          <div>Finance</div>
         </Link>
       </div>
 

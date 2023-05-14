@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url(https://images.pexels.com/photos/6985045/pexels-photo-6985045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-  /* background: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2643.jpg?w=1800&t=st=1683846119~exp=1683846719~hmac=966713bdf2332c7fa2ae7f4d49a487c8cbf1d4284627a6d30c39ae383b952c6d); */
+  /* background: url(https://images.pexels.com/photos/6985045/pexels-photo-6985045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+  background: url(https://static.vecteezy.com/system/resources/previews/007/163/618/large_2x/soft-colorful-background-with-gradient-pastel-color-palette-illustration-for-banner-presentation-template-wallpaper-text-place-and-social-media-illustration-vector.jpg);
   /* background: url(); */
   background-size: cover;
   height: 100vh;

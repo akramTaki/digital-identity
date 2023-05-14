@@ -5,8 +5,8 @@ import pic from "../../assets/images/me.jpg"
 const SideBar = () => {
   return (
     <Wrapper className="glass">
-      <img src={pic} />
-      <Link to="/">Dashboard</Link>
+      <img src={pic} className="glass" />
+      <Link to="/dashboard">Dashboard</Link>
       <Link to="/">Driver</Link>
       <Link to="/">Health</Link>
       <Link to="/">Finance</Link>

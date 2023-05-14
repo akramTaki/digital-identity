@@ -8,7 +8,10 @@ const Wrapper = styled.div`
   border-radius: 0;
   img {
     border-radius: 50%;
-    width: 200px;
+    width: 150px;
+    margin: auto;
+    display: block;
+    margin-bottom: 40px;
   }
   h1 { 
     text-align: center;

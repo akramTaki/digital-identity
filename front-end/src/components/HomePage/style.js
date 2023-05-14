@@ -2,18 +2,18 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   padding-top: 100px;
+
   .heroText {
     width: 35%;
     float: left;
     margin-left: 100px;
-    margin-top: 150px;
+    margin-top: 50px;
     font-size: 50px;
-    color: #fff;
   }
   img {
-    width: 50%;
+    width: 35%;
     float: right;
-    margin-right: 100px;
+    margin-right: 200px;
   }
 
   button {
@@ -31,7 +31,6 @@ const Wrapper = styled.div`
     float: none;
     text-align: center;
     font-size: 50px;
-    color: #fff;
     margin: 100px;
   }
 `;
