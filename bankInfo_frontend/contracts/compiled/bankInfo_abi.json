@@ -1,0 +1,191 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "bankName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "accountType",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "balance",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "accountName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "accountNumber",
+				"type": "string"
+			}
+		],
+		"name": "storeBankInfo",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "accountName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "accountNumber",
+				"type": "string"
+			}
+		],
+		"name": "storeDigitalAccount",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "bankInfo",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "bankName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "accountType",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "balance",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "accountName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "accountNumber",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "digitalAccountInfo",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "accountName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "accountNumber",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getBankInfo",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "bankName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "accountType",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "accountName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "accountNumber",
+						"type": "string"
+					}
+				],
+				"internalType": "struct BankInfo.BankInfoStruct[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getDigitalAccount",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "accountName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "accountNumber",
+						"type": "string"
+					}
+				],
+				"internalType": "struct BankInfo.DigitalAccountStruct[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
