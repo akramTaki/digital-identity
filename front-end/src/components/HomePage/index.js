@@ -17,8 +17,10 @@ const HomePage = () => {
           <Link to="/dashboard">Get started</Link>
         </Button>
       </h1>
+      
+      <hr />
       <h1 className="kycText">How it works</h1>
-      <img src={KYC} className="kyc"/>
+      <img src={KYC} className="kyc" />
     </Wrapper>
   );
 };

@@ -33,6 +33,12 @@ const Wrapper = styled.div`
     font-size: 50px;
     margin: 100px;
   }
+
+  hr {
+    clear: both;
+    width: 80%;
+    opacity: 0.5;
+  }
 `;
 
 export default Wrapper;
