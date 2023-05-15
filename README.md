@@ -98,4 +98,3 @@ The video demonstrates the use of ERC-721 standard for registering and securely 
 
 * Decentralized KYC on Blockchain: https://techblog.geekyants.com/decentralized-kyc-on-blockchain-a-case-study#heading-please-find-the-full-source-code-herehttpsgithubcomgeekyantssample-decentralised-kyc-ethereum)
 * Origin Identity Playground:  https://github.com/OriginProtocol/origin-playground; Video:  https://www.youtube.com/watch?v=jjUKWRK8H2g
-* 
