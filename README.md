@@ -85,6 +85,7 @@ Once the [drivers.sol]() contract was compiled, it was deployed using Metamask g
 
 
 #### Register both centralized and decentralized banking information on  Blockchain
+
 ERC-721 is a widely used standard for creating non-fungible tokens (NFTs) on the Ethereum blockchain. The importance of using ERC-721 to register both centralized and decentralized banking information lies in its ability to create unique and tamper-proof tokens that can represent ownership of assets, including digital assets such as banking information. By utilizing this standard, users can create NFTs that represent their banking information and store them securely on the blockchain. This provides an immutable record of ownership, making it difficult for unauthorized parties to access or manipulate the data. The decentralized nature of the Ethereum blockchain also ensures that this information cannot be controlled by any single entity, reducing the risk of data breaches and hacks. Overall, using ERC-721 to register banking information provides an additional layer of security and transparency, making it an essential tool for individuals and businesses looking to manage their financial data in a secure and decentralized manner.
 
 ![image](bank_info.png)
@@ -92,3 +93,9 @@ ERC-721 is a widely used standard for creating non-fungible tokens (NFTs) on the
 [video demostrating the use ERC-721 to store financial information](https://studio.youtube.com/video/VfaFHO8a-uw/edit)
 
 The video demonstrates the use of ERC-721 standard for registering and securely storing banking information on the Ethereum blockchain. It shows how NFTs can be created to represent ownership of assets, including digital assets such as banking information, and how these NFTs can be stored and accessed on the blockchain. The video emphasizes the importance of using ERC-721 for securing banking information, as it provides a tamper-proof record of ownership, making it difficult for unauthorized parties to access or manipulate the data. By using this standard, users can ensure the safety and security of their financial data while also taking advantage of the decentralized nature of the Ethereum blockchain. Overall, the video serves as a valuable demonstration of how ERC-721 can be used to manage and secure banking information in a decentralized and transparent way.
+
+#### Sources
+
+* Decentralized KYC on Blockchain: https://techblog.geekyants.com/decentralized-kyc-on-blockchain-a-case-study#heading-please-find-the-full-source-code-herehttpsgithubcomgeekyantssample-decentralised-kyc-ethereum)
+* Origin Identity Playground:  https://github.com/OriginProtocol/origin-playground; Video:  https://www.youtube.com/watch?v=jjUKWRK8H2g
+* 
