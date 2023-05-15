@@ -1,5 +1,5 @@
-# digital-Wallet
-**Digital-Wallet**
+# Digital Identity Wallet
+**Digital Identity Wallet**
 ------
 *A digital wallet that incorporates KYC (know-your-customer) requirements and securely stores banking information is essential for individuals in today's digital age. The importance of KYC cannot be overstated, as it ensures the safety and security of financial transactions, protects against fraud, and helps to prevent money laundering and other illicit activities. The convenience of a digital wallet that can store banking information securely is also significant, as it enables users to easily make and receive payments, transfer money, and manage their finances from the comfort of their own devices. With the added layer of KYC, users can rest assured that their transactions are protected and secure, making the digital wallet a must-have tool for anyone looking to manage their finances in a safe and efficient way.*
 
