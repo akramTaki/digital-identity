@@ -7,6 +7,12 @@ import KYC from "../../assets/images/kyc.png";
 const HomePage = () => {
   return (
     <Wrapper>
+      <div className="menu">
+        <span>Home</span>
+        <span>Services</span>
+        <span>How it works</span>
+        <span>Contact</span>
+      </div>
       <img src={HeroImage} />
       <h1 className="heroText">
         Know your Customer <br />

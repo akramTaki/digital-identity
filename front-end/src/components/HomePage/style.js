@@ -39,6 +39,17 @@ const Wrapper = styled.div`
     width: 80%;
     opacity: 0.5;
   }
+
+  .menu {
+    
+    position: absolute;
+    right: 100px;
+    top: 30px;
+
+    span {
+      margin-left: 50px;
+    }
+  }
 `;
 
 export default Wrapper;
